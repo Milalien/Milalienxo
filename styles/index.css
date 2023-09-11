@@ -1,20 +1,27 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    font-stretch: extra-condensed;
-    margin: auto;
-    background-image: url("/images/cyber-3728141_1920.jpg");
+  font-family: 'Courier New', Courier, monospace;
+  font-stretch: extra-condensed;
+  margin: auto;
+  background-image: url("/images/cyber-3728141_1920.jpg");
+  background-position: center center;
+  background-attachment: fixed;
 }
-h1, h2, h3 {
-    color:aliceblue;
-    margin: auto;
-    padding: 2%;
+
+h1,
+h2,
+h3 {
+  color: aliceblue;
+  margin: auto;
+  padding: 2%;
 }
-  .active {
-    background-color: #a504aa71;
+
+.active {
+  background-color: #a504aa71;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
   }
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
+}

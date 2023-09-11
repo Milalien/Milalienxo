@@ -1,0 +1,42 @@
+fieldset {
+
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(144, 144, 144);
+    border: 5px;
+    border-color: black;
+    border-style: double;
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset.container {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+td {
+    padding: 2%;
+}
+
+/*
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
