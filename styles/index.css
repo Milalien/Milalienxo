@@ -1,5 +1,5 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Fauna One', serif;
   font-stretch: extra-condensed;
   margin: auto;
   background-image: url("/images/cyber-3728141_1920.jpg");
@@ -13,6 +13,8 @@ h3 {
   color: aliceblue;
   margin: auto;
   padding: 2%;
+  text-shadow: 1px 1px 5px black, 0 0 25px blue, 0 0 10px darkblue;
+  font-family: Cinzel, serif;
 }
 
 .active {
