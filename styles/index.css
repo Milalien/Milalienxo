@@ -7,6 +7,24 @@ body {
   background-attachment: fixed;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+}
+.flex-container > div {
+  min-width: 350px;
+  margin: 10px;
+  text-align: center;
+  max-width: max-content;
+}
+
 h1,
 h2,
 h3 {
@@ -26,4 +44,10 @@ h3 {
     float: none;
     display: block;
   }
+  .flex-container > div {
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+  
 }
