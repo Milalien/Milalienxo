@@ -10,15 +10,16 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  
 }
+
 .flex-container {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
   justify-content: center;
 }
-.flex-container > div {
+
+.flex-container>div {
   min-width: 350px;
   margin: 10px;
   text-align: center;
@@ -28,10 +29,10 @@ body {
 h1,
 h2,
 h3 {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   margin: auto;
   padding: 2%;
-  text-shadow: 1px 1px 5px black, 0 0 25px blue, 0 0 10px darkblue;
+  text-shadow: 1px 1px 5px black, 0 0 25px rgb(255, 0, 157), 0 0 10px darkmagenta;
   font-family: Cinzel, serif;
 }
 
@@ -44,10 +45,11 @@ h3 {
     float: none;
     display: block;
   }
-  .flex-container > div {
-    flex-direction: column;
+
+  .flex-container>div {
+
     justify-content: center;
     margin: 10px;
   }
-  
+
 }

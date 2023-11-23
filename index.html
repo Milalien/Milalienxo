@@ -14,46 +14,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
     <link type="text/css" rel="stylesheet" charset="UTF-8" href="styles/index.css">
-
+    <script src="//code.jquery.com/jquery.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 
-        <a class="navbar-brand" href="index.html">MilalienXo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load('nav.html');
+        });
+    </script>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Shortcuts
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="resume.html">Resume</a></li>
-                        <li><a class="dropdown-item" href="https://github.com/Milalien">GitHub</a></li>
-                        <li><a class="dropdown-item" href=""></a></li>
-                        <li><a class="dropdown-item" href=""></a></li>
-                    </ul>
-                </li>
-                <ul>
-                    <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link text-white"
-                            href="https://www.linkedin.com/in/milla-k%C3%A4rkk%C3%A4inen-44ab54180"><i
-                                class="bi bi-linkedin"></i></a>
-                    </li>
-                </ul>
-
-            </ul>
-        </div>
-    </nav>
 
     <div class="container">
         <h1>Hi, I'm Milla.</h1>
@@ -63,7 +35,16 @@
 
     <div class="flex-container">
 
-        <div class="card text-bg-dark text-white">
+        <div class="card text-bg-dark">
+            <div class="card-body">
+                <h5 class="card-title">About me</h5>
+                <p class="card-text">A little background</p>
+                <a href="about.html" class="btn bg-black text-white"><i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+
+        </div>
+
+        <div class="card text-bg-dark">
             <div class="card-body">
                 <h5 class="card-title">Resume</h5>
                 <p class="card-text">What I have done and accomplished</p>
@@ -71,8 +52,16 @@
             </div>
         </div>
 
+        <div class="card text-bg-dark">
+            <div class="card-body">
+                <h5 class="card-title">Skills</h5>
+                <p class="card-text">Completed courses and skills</p>
+                <a href="skills.html" class="btn bg-black text-white"><i class="bi bi-arrow-right-circle"></i></a>
+            </div>
 
-        <div class="card text-bg-dark text-white">
+        </div>
+
+        <div class="card text-bg-dark">
             <div class="card-body">
                 <h5 class="card-title">Projects</h5>
                 <p class="card-text">GitHub</p>
