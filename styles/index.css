@@ -1,7 +1,6 @@
 body {
   font-family: 'Fauna One', serif;
   font-stretch: extra-condensed;
-  margin: auto;
   background-image: url("/images/cyber-3728141_1920.jpg");
   background-position: center center;
   background-attachment: fixed;
@@ -10,6 +9,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  padding: 5%;
 }
 
 .flex-container {
@@ -17,23 +17,22 @@ body {
   flex-flow: row wrap;
   width: 100%;
   justify-content: center;
+
 }
 
 .flex-container>div {
   min-width: 350px;
   margin: 10px;
-  text-align: center;
-  max-width: max-content;
+  justify-content: center;
 }
 
 h1,
 h2,
 h3 {
   color: rgb(0, 0, 0);
-  margin: auto;
-  padding: 2%;
-  text-shadow: 1px 1px 5px black, 0 0 25px rgb(255, 0, 157), 0 0 10px darkmagenta;
+  text-shadow: 1px 1px 4px black, 0 0 30px rgb(255, 0, 157), 0 0 10px darkmagenta;
   font-family: Cinzel, serif;
+
 }
 
 .active {
@@ -45,11 +44,4 @@ h3 {
     float: none;
     display: block;
   }
-
-  .flex-container>div {
-
-    justify-content: center;
-    margin: 10px;
-  }
-
 }
