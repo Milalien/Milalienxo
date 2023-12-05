@@ -5,11 +5,16 @@ h4 {
 
 fieldset {
     min-width: fit-content;
-    max-width: 50%;
-    margin: auto;
+
+    margin: 10px auto auto auto;
     background-color: rgb(196, 134, 181);
     border: 5px black double;
 
+}
+
+.content {
+    max-width: 50%;
+    margin: auto;
 }
 
 legend {
