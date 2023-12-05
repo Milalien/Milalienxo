@@ -1,13 +1,8 @@
-h4 {
-    color: white;
-
-}
-
 fieldset {
     min-width: fit-content;
-
+    color: white;
     margin: 10px auto auto auto;
-    background-color: rgb(196, 134, 181);
+    background-color: rgba(146, 39, 114, 0.719);
     border: 5px black double;
 
 }
@@ -21,7 +16,6 @@ legend {
     text-align: center;
     padding: 5px;
     font-size: 50px;
-    color: white;
     border-bottom: 1.5px black groove;
 
 }
@@ -30,6 +24,11 @@ legend {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.description {
+    text-align: end;
+    max-width: 50%;
 }
 
 .box1 {

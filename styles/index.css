@@ -1,7 +1,7 @@
 body {
   font-family: 'verdana';
   font-stretch: extra-condensed;
-  background-image: url("/images/cyber-3728141_1920.jpg");
+  background-image: url(/images/matrix-3408062_1920.jpg);
   background-position: center center;
   background-attachment: fixed;
 }
@@ -28,7 +28,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+legend {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 4px black, 0 0 30px rgb(255, 0, 157), 0 0 8px darkmagenta;
 
