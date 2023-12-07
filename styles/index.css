@@ -3,7 +3,10 @@ body {
   font-stretch: extra-condensed;
   background-image: url(../images/matrix-3408062_1920.jpg);
   background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(126, 7, 70);
 }
 
 .container {
@@ -34,15 +37,4 @@ legend {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 4px black, 0 0 30px rgb(255, 0, 157), 0 0 8px darkmagenta;
 
-}
-
-.active {
-  background-color: #a504aa71;
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
 }
