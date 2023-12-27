@@ -29,6 +29,10 @@ body {
   justify-content: center;
 }
 
+.btn {
+  border-radius: 100%;
+}
+
 h1,
 h2,
 h3,
