@@ -1,12 +1,8 @@
 body {
   font-family: 'verdana';
   font-stretch: extra-condensed;
-  background-image: url(../images/matrix-3408062_1920.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: rgb(126, 7, 70);
+
+  background: rgb(126, 7, 70) url(../images/matrix-3408062_1920.jpg) no-repeat fixed center center;
 }
 
 .container {
@@ -24,7 +20,7 @@ body {
 }
 
 .flex-container>div {
-  min-width: 350px;
+  min-width: 300px;
   margin: 10px;
   justify-content: center;
 }
@@ -40,5 +36,10 @@ h4,
 legend {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 4px black, 0 0 30px rgb(255, 0, 157), 0 0 8px darkmagenta;
+
+}
+
+.iconlinks {
+  flex: row 1 1 200px;
 
 }
