@@ -2,7 +2,7 @@ fieldset {
     min-width: fit-content;
     color: white;
     margin: 10px auto 10px auto;
-    background-color: rgba(146, 39, 114, 0.719);
+    background-color: rgba(135, 27, 120, 0.719);
     border: 5px black double;
 }
 
