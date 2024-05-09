@@ -2,16 +2,18 @@ fieldset {
     min-width: fit-content;
     color: white;
     margin: 10px auto 10px auto;
-    background-color: rgba(135, 27, 120, 0.719);
+    background-color: rgba(74, 24, 67, 0.774);
     border: 5px black double;
 }
 
+
 legend {
+    font-weight: 350;
     text-align: center;
     padding: 5px;
     font-size: 50px;
+    text-shadow: 2px 2px 5px black;
     border-bottom: 1.5px black groove;
-
 }
 
 .wrapper {
@@ -34,6 +36,10 @@ legend {
     padding: 5px;
 }
 
+.box2 {
+    border-bottom: 1px black dashed;
+}
+
 @media only screen and (max-width: 600px) {
     .content {
         max-width: 100%;
@@ -50,9 +56,6 @@ legend {
         margin-top: 5px;
     }
 
-    .box2 {
-        border-bottom: 1px black dashed;
-    }
 
     .box2>div,
     .box3>div {
@@ -80,9 +83,7 @@ legend {
         margin-top: 5px;
     }
 
-    .box2 {
-        border-bottom: 1px black dashed;
-    }
+
 }
 
 @media only screen and (min-width: 768px) {

@@ -1,14 +1,29 @@
 body {
-  font-family: 'verdana';
-  font-stretch: extra-condensed;
+  font-family: "Source Code Pro", monospace;
 
   background: rgb(126, 7, 70) url(../images/mkBackground.png) no-repeat fixed center center;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 350;
+  font-stretch: extra-condensed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   padding: 5%;
+
 }
 
 .flex-container {
@@ -29,15 +44,7 @@ body {
   border-radius: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-legend {
-  color: rgb(255, 255, 255);
-  text-shadow: 0px 0px 30px black;
 
-}
 
 .iconlinks {
   flex: row 1 1 200px;
