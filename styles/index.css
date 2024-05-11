@@ -1,7 +1,7 @@
 body {
   font-family: "Source Code Pro", monospace;
-
-  background: rgb(126, 7, 70) url(../images/mkBackground.png) no-repeat fixed center center;
+  background: rgb(61, 2, 50) url(../images/mkBackground.png) no-repeat fixed center center;
+  background-size: cover;
 }
 
 p {
@@ -15,15 +15,18 @@ h2,
 h3,
 h4,
 h5 {
-  color: rgb(255, 255, 255);
+  color: white;
   font-weight: 400;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  padding: 5%;
+  margin: 5% auto 5% auto;
+  padding: 20px;
+  backdrop-filter: blur(1px);
 
+  border-radius: 80px;
+  text-align: center;
+  max-width: fit-content;
 }
 
 .flex-container {
@@ -40,13 +43,33 @@ h5 {
   justify-content: center;
 }
 
-.btn {
-  border-radius: 100%;
-}
-
-
 
 .iconlinks {
   flex: row 1 1 200px;
+
+}
+
+.card:hover {
+  color: rgb(154, 51, 140) !important;
+  background-color: black !important;
+
+  h4 {
+    font-weight: 600;
+  }
+}
+
+.btn {
+  padding: 0;
+  margin: 5px;
+  color: white;
+}
+
+.btn:hover {
+  color: rgb(154, 51, 140);
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.750) !important;
+  box-shadow: 0 0 10px 1px rgb(154, 51, 140, 0.35);
 
 }

@@ -1,9 +1,10 @@
 fieldset {
     min-width: fit-content;
     color: white;
-    margin: 10px auto 10px auto;
-    background-color: rgba(74, 24, 67, 0.774);
-    border: 5px black double;
+    margin: 20px auto 20px auto;
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px 5px rgb(154, 51, 140, 0.35);
 }
 
 
@@ -12,8 +13,8 @@ legend {
     text-align: center;
     padding: 5px;
     font-size: 50px;
-    text-shadow: 2px 2px 5px black;
-    border-bottom: 1.5px black groove;
+
+
 }
 
 .wrapper {
@@ -30,14 +31,20 @@ legend {
 
 .box1 {
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
-    border-bottom: 1.5px black groove;
-    padding: 5px;
+    border-block: 1.5px solid rgb(154, 51, 140, 0.35);
+    padding: 10px;
 }
 
 .box2 {
-    border-bottom: 1px black dashed;
+    border-bottom: 1px rgb(154, 51, 140, 0.35) dotted;
+}
+
+.textblock {
+    border-top: 1.5px solid rgb(154, 51, 140, 0.35);
+    padding: 10px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
