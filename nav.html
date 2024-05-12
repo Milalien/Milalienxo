@@ -16,6 +16,21 @@
 
     .navbar {
         background-color: rgba(0, 0, 0, 0.750) !important;
+
+    }
+
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: xx-large;
+    }
+
+    #myBtn:hover {
+        color: rgb(154, 51, 140);
     }
 </style>
 
@@ -42,6 +57,7 @@
                     <a class="nav-link" href="skills.html">Skills</a>
                 </li>
 
+
             </ul>
 
             <ul class="navbar-nav ms-auto">
@@ -54,16 +70,17 @@
                     <a class="nav-link text-white" href="https://github.com/Milalien" target="_blank">
                         <i class="bi bi-github"></i></a>
                 </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link text-white" href="https://t.me/Milalienxo" target="_blank">
-                        <i class="bi bi-telegram"></i></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact me</a>
                 </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link text-white" href="mailto:karkkimilla@gmail.com" target="_blank">
-                        <i class="bi bi-envelope-fill"></i></a>
-                </li>
+
+
 
             </ul>
         </div>
     </div>
 </nav>
+<button onclick="toTop()" id="myBtn" class="btn btn-lg" title="Go to top"><i
+        class="bi bi-arrow-up-circle-fill"></i></button>
+
+<script src="scripts/index.js" type="text/JavaScript"></script>

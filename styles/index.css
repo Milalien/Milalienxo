@@ -1,7 +1,7 @@
 body {
   font-family: "Source Code Pro", monospace;
   background: rgb(61, 2, 50) url(../images/mkBackground.png) no-repeat fixed center center;
-  background-size: cover;
+
 }
 
 p {
@@ -49,6 +49,10 @@ h5 {
 
 }
 
+#about {
+  position: relative;
+}
+
 .card:hover {
   color: rgb(154, 51, 140) !important;
   background-color: black !important;
@@ -60,8 +64,8 @@ h5 {
 
 .btn {
   padding: 0;
-  margin: 5px;
-  color: white;
+  color: rgb(193, 193, 193);
+  font-size: x-large;
 }
 
 .btn:hover {
