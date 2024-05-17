@@ -55,6 +55,7 @@ h5 {
 
 .card:hover {
   color: rgb(154, 51, 140) !important;
+  transition: color 0.5s !important;
   background-color: black !important;
 
   h4 {
@@ -70,6 +71,7 @@ h5 {
 
 .btn:hover {
   color: rgb(154, 51, 140);
+  transition: color 0.2s;
 }
 
 .card {

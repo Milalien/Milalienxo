@@ -7,14 +7,11 @@ fieldset {
     box-shadow: 0 0 10px 5px rgb(154, 51, 140, 0.35);
 }
 
-
 legend {
     font-weight: 350;
     text-align: center;
     padding: 5px;
     font-size: 40px;
-
-
 }
 
 .wrapper {
@@ -56,15 +53,28 @@ legend {
 .contact-link:hover {
     color: rgb(154, 51, 140);
     font-weight: 600;
+    transition: color 0.2s;
 }
 
-.contacts {
-    border-bottom: 1.5px solid rgb(154, 51, 140, 0.35);
+
+
+.contactinfo {
+    max-width: 500px !important;
+
+    legend {
+        border-bottom: 1.5px solid rgb(154, 51, 140, 0.35);
+
+    }
+
+    .wrapper {
+        padding: 40px 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .content {
         max-width: 100%;
+        margin: auto;
     }
 
     .box2,
