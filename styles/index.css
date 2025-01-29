@@ -19,7 +19,7 @@ h5 {
   font-weight: 400;
 }
 .content{
-  margin-top: 80px;;
+  margin-top: 80px !important;
 }
 .container {
   margin: 80px auto 5% auto;
