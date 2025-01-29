@@ -18,12 +18,13 @@ h5 {
   color: white;
   font-weight: 400;
 }
-
+.content{
+  margin-top: 80px;;
+}
 .container {
-  margin: 5% auto 5% auto;
+  margin: 80px auto 5% auto;
   padding: 20px;
   backdrop-filter: blur(1px);
-
   border-radius: 80px;
   text-align: center;
   max-width: fit-content;

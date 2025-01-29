@@ -1,7 +1,3 @@
-.content{
-    margin-top: 80px;
-}
-
 fieldset {
     min-width: fit-content;
     color: white;
@@ -10,7 +6,6 @@ fieldset {
     background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0 0 10px 5px rgb(154, 51, 140, 0.35);
 }
-
 legend {
     font-weight: 350;
     text-align: center;
