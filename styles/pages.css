@@ -25,7 +25,7 @@ legend {
 }
 .formfield::placeholder {
     color:rgba(255, 255, 255, 0.75);
-}.formfield:focus, .formfield:active{
+}.formfield:checked{
     border-radius: 0;
     border:1.5px solid rgb(154, 51, 140, 0.5);
 }
