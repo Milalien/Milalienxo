@@ -40,7 +40,7 @@ legend {
     margin:auto;
 } .btn.form:hover{
     outline:1.5px solid rgb(154, 51, 140);
-
+    transition: outline 0.2s;
 }
 
 .wrapper {
@@ -82,7 +82,7 @@ legend {
 .contact-link:hover, .btn.form:hover {
     color: rgb(154, 51, 140);
     font-weight: 600;
-    transition: all 0.2s;
+    transition: color 0.2s;
 }
 
 
