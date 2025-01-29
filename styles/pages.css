@@ -13,6 +13,27 @@ legend {
     padding: 5px;
     font-size: 40px;
 }
+#email_form{
+margin:20px;
+}
+.formfield{
+color:white;
+margin-bottom:15px;
+border:none;
+border-bottom: 1.5px solid rgb(154, 51, 140, 0.5);
+border-radius:0;
+background-color:black;
+}
+.btn.form{
+box-shadow: inset 0 0 10px rgb(235 109 218);
+padding:10px;
+border:none;
+background-color:black;
+color:white;
+border-radius:15px;
+width:fit-content;
+margin:auto;
+}
 
 .wrapper {
     display: flex;
@@ -50,7 +71,7 @@ legend {
 
 }
 
-.contact-link:hover {
+.contact-link:hover, .btn.form:hover {
     color: rgb(154, 51, 140);
     font-weight: 600;
     transition: color 0.2s;

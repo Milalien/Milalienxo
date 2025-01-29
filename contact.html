@@ -17,7 +17,7 @@
     <link type="text/css" rel="stylesheet" charset="UTF-8" href="styles/pages.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/transparent.png?">
     <link rel="icon" type="image/x-icon" href="images/transparent.png?">
-    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="scripts/jquery-3.7.1.min.js"></script>
 
 </head>
 
@@ -55,12 +55,12 @@
             <legend>Message me:</legend>
             <div class="wrapper">
 
-                <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+                <form action="https://postmail.invotes.com/send" method="post" id="email_form" class="d-flex row">
 
-                    <input id="formfield" type="text" name="subject" placeholder="Subject" />
-                    <textarea id="formfield" name="text" placeholder="Message"></textarea>
+                    <input class="formfield" type="text" name="subject" placeholder="Subject" />
+                    <textarea class="formfield" name="text" placeholder="Message"></textarea>
                     <input type="hidden" name="access_token" value="adin9g177ncgakprm6ykn3hk" />
-                    <input id="formfield" type="text" name="reply_to" placeholder="Your Email" />
+                    <input class="formfield" type="text" name="reply_to" placeholder="Your Email" />
                     <input class="btn form" id="submit_form" type="submit" value="Send" />
                 </form>
             </div>
