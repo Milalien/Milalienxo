@@ -57,10 +57,10 @@
 
                 <form action="https://postmail.invotes.com/send" method="post" id="email_form" class="d-flex row">
 
-                    <input class="formfield" type="text" name="subject" placeholder="Subject" />
-                    <textarea class="formfield" name="text" placeholder="Message"></textarea>
-                    <input type="hidden" name="access_token" value="adin9g177ncgakprm6ykn3hk" />
-                    <input class="formfield" type="text" name="reply_to" placeholder="Your Email" />
+                    <input class="formfield" type="text" required name="subject" placeholder="Subject" />
+                    <textarea class="formfield" name="text" required placeholder="Message"></textarea>
+                    <input type="hidden" name="access_token"  value="adin9g177ncgakprm6ykn3hk" />
+                    <input class="formfield" required type="text" name="reply_to" placeholder="Your Email" />
                     <input class="btn form" id="submit_form" type="submit" value="Send" />
                 </form>
             </div>
