@@ -26,6 +26,7 @@ legend {
 .formfield::placeholder {
     color:rgba(255, 255, 255, 0.75);
 }.formfield:focus{
+    box-shadow: 0 0 10px 5px rgb(154, 51, 140, 0.5);
     outline:1.5px solid rgb(154, 51, 140);
 }
 .btn.form{
