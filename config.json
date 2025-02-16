@@ -2,36 +2,159 @@
     "skills": {
         "projects": [
             {
-                "name": "Project 1",
-                "description": "Description of Project 1",
-                "link": ""
+                "name": "Taloushallinto360",
+                "description": [
+                    "I am currently working on a website for our school's financial management students and teachers with a classmate.<br>",
+                    "The website is going to be a platform that brings together the paths of financial management studies",
+                    "by using four case companies that have different financial management needs, and excercises for all courses to utilize.<br>",
+                    "This is still an ongoing project, so the repository will be available later on.<br>"
+                ],
+                "link": {
+                    "text": "",
+                    "url": ""
+                }
             },
             {
-                "name": "Project 2",
-                "description": "Description of Project 2",
-                "link": ""
+                "name": "Karels Oy website",
+                "description": [
+                    "During my internship at IT-Palvelu Varaani, I fully designed, developed and built a website for a local company Karels Oy<br>",
+                    "The website was built using HTML, CSS, JavaScript, and PHP, and it is hosted on a server<br>",
+                    "All info on the site is translated into three languages and can be updated by the owner easily on the admin page I built.<br>"
+                ],
+                "link": {
+                    "text": "Repository with the edited code: ",
+                    "url": "https://github.com/Milalien/InternshipProject"
+                }
             },
             {
-                "name": "Project 3",
-                "description": "Description of Project 3",
-                "link": ""
+                "name": "Wellness app with Angular",
+                "description": [
+                    "Built a Wellness tracking Web app with my classmate as a part of a project course.<br>",
+                    "It is a prototype front-end made with Angular, and would need more work to be fully functional.<br>",
+                    "I have since moved on to other projects so this is going to be left as a prototype.<br>"
+                ],
+                "link": {
+                    "text": "Project on GitHub: ",
+                    "url": "https://github.com/Milalien/Wellness-app"
+                }
             }
         ],
         "courses": [
             {
-                "name": "Course 1",
-                "description": "Description of Course 1",
-                "link": ""
+                "name": "GitHub Actions and Azure DevOps",
+                "description": "Learned the basics of CI/CD pipelines, GitHub Actions, Docker and Azure DevOps.<br>",
+                "link": {
+                    "text": "Cloned and edited repository: ",
+                    "url": "https://github.com/Milalien/angular-example-app"
+                }
             },
             {
-                "name": "Course 2",
-                "description": "Description of Course 2",
-                "link": ""
+                "name": "Android and Java programming",
+                "description": "Basics of Android and Java programming<br> using Android Studio.<br>Built a simple Android app including a simple game, locating service, a timer and a currency converter.<br>",
+                "link": {
+                    "text": "Project on GitHub: ",
+                    "url": "https://github.com/Milalien/AndroidProgramming"
+                }
             },
             {
-                "name": "Course 3",
-                "description": "Description of Course 3",
-                "link": ""
+                "name": "Front-end tools",
+                "description": "Learned Angular and TypeScript, and built a working front-end for a web application.<br>",
+                "link": {
+                    "text": "Project on GitHub: ",
+                    "url": "https://github.com/Milalien/FrontEndTools-23-Project"
+                }
+            },
+            {
+                "name": "Back-end tools",
+                "description": "Learned to build a working back-end for a web application. Gained skills and understanding about:<br>REST, ASP.NET, HTTP protocol, Entity Framework, Layered Architecture, Middleware (API keys and user authentication)<br>",
+                "link": {
+                    "text": "Final project: ",
+                    "url": "https://github.com/Milalien/BackEnd23-FinalProject"
+                }
+            },
+            {
+                "name": "SQL and relational databases",
+                "description": "Basics of SQL queries, creating and using databases.<br>",
+                "link": {
+                    "text": "",
+                    "url": ""
+                }
+            }
+        ]
+    },
+    "resume": {
+        "education": [
+            {
+                "name": "Bachelor of Business and Information Technology (BBA)",
+                "school": "LAB University of Applied Sciences",
+                "time": "2022 - est. 2026"
+            },
+            {
+                "name": "Vocational degree in Business Administration",
+                "school": "Saimaa's Vocational College",
+                "time": "Gratuated 01/2021"
+            }
+        ],
+        "internships": [
+            {
+                "position": "Web Developement intern",
+                "name": "IT-Palvelu Varaani",
+                "description": "Designed and developed a web page for a local company and participated in other projects.<br>More about it on the skills page!",
+                "time": "05/2024 - 08/2024"
+            }
+        ],
+        "work": [
+            {
+                "position": "Taxi dispatch call center agent",
+                "name": "Taksi Saimaa Oy",
+                "time": "01/2023 - Ongoing"
+            },
+            {
+                "position": "Bakery packer",
+                "name": "Kesämäen Leipomo / Go-On Lappeenranta",
+                "time": "11/2021 - 06/2022"
+            },
+            {
+                "position": "Grocery store employee",
+                "name": "Etelä-Karjalan Osuuskauppa, Prisma Lappeenranta",
+                "time": "08/2021 - 10/2021"
+            },
+            {
+                "position": "Fast food worker",
+                "name": "McDonald's Lappeenranta",
+                "time": "01/2021 - 08/2021"
+            }
+        ],
+        "confidential": [
+            {
+                "name": "LapTOp ry",
+                "terms": [
+                    {
+                        "position": "Chairperson of the board",
+                        "time": "2025"
+                    },
+                    {
+                        "position": "Treasurer and Secretary",
+                        "time": "2024"
+                    }
+                ]
+            },
+            {
+                "name": "Youth council of Joensuu",
+                "terms": [
+                    {
+                        "position": "Alternate member",
+                        "time": "2019-2020"
+                    },
+                    {
+                        "position": "Full member<br>Representative in the Building and Environment board of the city",
+                        "time": "2017-2018"
+                    },
+                    {
+                        "position": "Alternate member",
+                        "time": "2015-2016"
+                    }
+                ]
             }
         ]
     }
