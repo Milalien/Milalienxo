@@ -1,0 +1,38 @@
+{
+    "skills": {
+        "projects": [
+            {
+                "name": "Project 1",
+                "description": "Description of Project 1",
+                "link": ""
+            },
+            {
+                "name": "Project 2",
+                "description": "Description of Project 2",
+                "link": ""
+            },
+            {
+                "name": "Project 3",
+                "description": "Description of Project 3",
+                "link": ""
+            }
+        ],
+        "courses": [
+            {
+                "name": "Course 1",
+                "description": "Description of Course 1",
+                "link": ""
+            },
+            {
+                "name": "Course 2",
+                "description": "Description of Course 2",
+                "link": ""
+            },
+            {
+                "name": "Course 3",
+                "description": "Description of Course 3",
+                "link": ""
+            }
+        ]
+    }
+}
