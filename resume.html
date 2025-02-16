@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M.M.M.K.</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
@@ -33,141 +32,10 @@
         <fieldset>
             <legend>Resume</legend>
             <div class="wrapper">
-                <div class="box1">
-                    <h4>Education</h4>
-                </div>
-                <div class="box2">
-                    <div>
-                        <h5>LAB University of Applied Sciences</h5>
-                        <p>Business and information technology, BBA</p>
-                    </div>
-                    <div>
-                        <h5>2022 - Ongoing</h5>
-                    </div>
-                </div>
-
-                <div class="box3">
-                    <div>
-                        <h5>Saimaa's Vocational College</h5>
-                        <p>Vocational degree in Business Administration</p>
-                    </div>
-
-                    <div>
-                        <h5>Gratuated 01/2021</h5>
-                    </div>
-                </div>
-                <div class="box1">
-                    <h4>Internships</h4>
-                </div>
-                <div class="box3">
-                    <div>
-                        <h5>IT-palvelu Varaani</h5>
-                        <p>Web-development and other IT-services<br>Designed and developed a web page for a local
-                            company<br>and participated in other projects.
-                            <br>More about it on the skills page!
-                        </p>
-                    </div>
-                    <div>
-                        <h5>05/2024 - 08/2024</h5>
-                    </div>
-                </div>
-                <div class="box1">
-                    <h4>Work history</h4>
-                </div>
-
-                <div class="box2">
-                    <div>
-                        <h5>Taksi Saimaa Oy</h5>
-                        <p>Taxi dispatch call center agent</p>
-                    </div>
-                    <div>
-                        <h5>01/2023 - Ongoing</h5>
-                    </div>
-                </div>
-
-                <div class="box2">
-                    <div>
-                        <h5>Kesämäen leipomo</h5>
-                        <p>Bakery packer</p>
-                    </div>
-                    <div>
-                        <h5>11/2021 - 06/2022</h5>
-                    </div>
-                </div>
-
-                <div class="box2">
-                    <div>
-                        <h5>Southern Karelia Cooperative,<br>
-                            Prisma Lappeenranta</h5>
-                        <p>Grocery store employee</p>
-                    </div>
-                    <div>
-                        <h5>08/2021 - 10/2021</h5>
-                    </div>
-                </div>
-
-                <div class="box3">
-                    <div>
-                        <h5>Karnomin Oy</h5>
-                        <p>Fast food restaurant employee</p>
-                    </div>
-                    <div>
-                        <h5>01/2021 - 08/2021</h5>
-
-                    </div>
-                </div>
-
-                <div class="box1">
-                    <h4>Confidential posts</h4>
-                </div>
-                <div class="box3">
-                    <h5>LapTOp ry</h5>
-                </div>
-                <div class="box3">
-                    <div>
-                        <p>Chairperson of the board</p>
-                    </div>
-                    <div>
-                        <h5>2025</h5>
-                    </div>
-                </div>
-                <div class="box2">
-                    <div>
-                        <p>Member of the board, treasurer, secretary</p>
-                    </div>
-                    <div>
-                        <h5>2024</h5>
-                    </div>
-                </div>
-                <div class="box3">
-                    <h5>Youth council of the city of Joensuu</h5>
-                </div>
-                <div class="box3">
-                    <div>
-                        <p>Alternate member</p>
-                    </div>
-                    <div>
-                        <h5>2019-2020</h5>
-                    </div>
-                </div>
-                <div class="box3">
-                    <div>
-                        <p>Full member<br>
-                            Representative in the Building and <br>Environment board of the city</p>
-                    </div>
-                    <div>
-
-                        <h5>2017-2018</h5>
-                    </div>
-                </div>
-                <div class="box3">
-                    <div>
-                        <p>Alternate member</p>
-                    </div>
-                    <div>
-                        <h5>2015-2016</h5>
-                    </div>
-                </div>
+                <div id="educationContainer"></div>
+                <div id="internContainer"></div>
+                <div id="workContainer"></div>
+                <div id="confContainer"></div>
 
 
             </div>
@@ -175,10 +43,112 @@
     </div>
     </fieldset>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function fetchJSONData() {
+            fetch('./config.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    const education = data.resume.education;
+                    const internships = data.resume.internships;
+                    const workHistory = data.resume.work;
+                    const confidential = data.resume.confidential;
+                    let educationHTML = `<div class="box1">
+                    <h4>Education</h4>
+                    </div>`;
+                    let internshipHTML = `<div class="box1">
+                    <h4>Internships</h4>
+                    </div>`;
+                    let workHTML = `<div class="box1">
+                    <h4>Work history</h4>
+                    </div>`;
+                    let confHTML = `<div class="box1">
+                    <h4>Confidential posts</h4>
+                    </div>`;
 
+                    for(let i = 0; i < education.length; i++) {
+                        if(i == education.length - 1) {
+                            educationHTML += `<div class="box3">`;
+                        } else {
+                            educationHTML += `<div class="box2">`;}
+                        
+                       educationHTML += `<div>
+                        <h5>${education[i].name}</h5>
+                        <p>${education[i].school}</p>
+                    </div>
+                    <div>
+                        <h5>${education[i].time}</h5>
+                    </div>
+                    </div>`;
+                        
+                    }
+                    for(let i = 0; i < internships.length; i++) {
+                        if(i == internships.length - 1) {
+                            internshipHTML += `<div class="box3">`;
+                        } else {
+                            internshipHTML += `<div class="box2">`;}
+                        
+                        internshipHTML += `<div>
+                        <h5>${internships[i].position}</h5>
+                        <h6>${internships[i].name}</h6>
+                        <p>${internships[i].description}
+                        </p>
+                    </div>
+                    <div>
+                        <h5>${internships[i].time}</h5>
+                    </div>
+                </div>`;
+                    }
+                    for(let i = 0; i < workHistory.length; i++) {
+                        if(i == workHistory.length - 1) {
+                            workHTML += `<div class="box3">`;
+                        } else {
+                            workHTML += `<div class="box2">`;}
+                        
+                       workHTML += `<div>
+                        <h5>${workHistory[i].position}</h5>
+                        <h6>${workHistory[i].name}</h6>
+                    </div>
+                    <div>
+                        <h5>${workHistory[i].time}</h5>
+                    </div>
+                    </div>`;
+                        
+                    }
+
+                    for(let i = 0; i < confidential.length; i++) {
+                        
+                       confHTML += `<div class="box3">
+                    <h5>${confidential[i].name}</h5>
+                    </div>`;
+                    for(let x = 0; x < confidential[i].terms.length;x++){
+                        confHTML += `<div class="box3">
+                    <div>
+                        <p>${confidential[i].terms[x].position}</p>
+                    </div>
+                    <div>
+                        <h5>${confidential[i].terms[x].time}</h5>
+                    </div>
+                </div>`;
+                    }
+                        
+                    }
+
+                    document.getElementById('educationContainer').innerHTML = educationHTML;
+                    document.getElementById('internContainer').innerHTML = internshipHTML;
+                    document.getElementById('workContainer').innerHTML = workHTML;
+                    document.getElementById('confContainer').innerHTML = confHTML;
+
+                })
+                .catch(error => console.error('Failed to fetch data:', error));
+        }
+        fetchJSONData();
+    </script>
 </body>
 
 </html>
