@@ -31,19 +31,13 @@ h5 {
 }
 
 .flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
   justify-content: center;
-
+  align-items: center;
+  margin: 0 20px;
 }
-
-.flex-container>div {
-  min-width: 300px;
+.flex-container .card {
   margin: 10px;
-  justify-content: center;
 }
-
 
 .iconlinks {
   flex: row 1 1 200px;
@@ -55,8 +49,8 @@ h5 {
 }
 
 .card:hover {
-  color: rgb(154, 51, 140) !important;
-  transition: color 0.5s !important;
+
+  transition: all 0.5s !important;
   background-color: black !important;
 
   h4 {
