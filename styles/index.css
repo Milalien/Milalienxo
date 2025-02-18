@@ -1,7 +1,11 @@
+:root{
+  --darkpurple: #772c9b;
+  --purple: #9d2ad4;
+}
+
 body {
   font-family: "Source Code Pro", monospace;
   background: rgb(61, 2, 50) url(../images/mkBackground.png) no-repeat fixed center center;
-
 }
 
 p {
@@ -18,6 +22,7 @@ h5 {
   color: white;
   font-weight: 400;
 }
+
 .content{
   margin-top: 80px !important;
 }
@@ -71,12 +76,12 @@ h5 {
 }
 
 .btn:hover,.plink:hover {
-  color: rgb(154, 51, 140);
+  color: var(--purple);
   transition: color 0.2s;
 }
 
 .card {
   background-color: rgba(0, 0, 0, 0.750) !important;
-  box-shadow: 0 0 10px 1px rgb(154, 51, 140, 0.35);
+  box-shadow: 0 0 15px var(--darkpurple);
 
 }
