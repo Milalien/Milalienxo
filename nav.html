@@ -1,4 +1,13 @@
 <style>
+    #brand:hover {
+        background-image: url("./images/3.png");
+        transition: all 1s;
+    }
+    #brand {
+        background: url("./images/2.png") no-repeat fixed center;
+        height: 40px;
+        width: 40px;
+    }
     .nav-link {
         font-size: 17px;
         font-weight: 350;
@@ -46,7 +55,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand mx-2" href="index.html">
-            <img src="./images/black.png" style="height: 40px;">
+            <span id="brand"></span>
         </a>
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav me-auto">
