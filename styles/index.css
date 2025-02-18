@@ -1,6 +1,8 @@
 :root{
   --darkpurple: #772c9b;
+  --fadeddarkpurple: #782c9b98;
   --purple: #9d2ad4;
+  --fadedpurple:#9e2ad48c;
 }
 
 body {
@@ -82,6 +84,6 @@ h5 {
 
 .card {
   background-color: rgba(0, 0, 0, 0.750) !important;
-  box-shadow: 0 0 15px var(--darkpurple);
+  box-shadow: 0 0 15px var(--fadeddarkpurple);
 
 }

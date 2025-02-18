@@ -1,10 +1,17 @@
+:root{
+    --darkpurple: #772c9b;
+    --fadeddarkpurple: #782c9b98;
+    --purple: #9d2ad4;
+    --fadedpurple:#9e2ad48c;
+  }
+
 fieldset {
     min-width: fit-content;
     color: white;
     margin: 20px auto 20px auto;
     backdrop-filter: blur(1px);
     background-color: rgba(0, 0, 0, 0.6);
-    box-shadow: 0 0 10px 5px rgb(154, 51, 140, 0.35);
+    box-shadow: 0 0 10px var(--fadedpurple);
 }
 legend {
     font-weight: 350;
@@ -19,18 +26,18 @@ legend {
     color:white;
     margin-bottom:20px;
     border:none;
-    border-bottom: 1.5px solid rgb(154, 51, 140, 0.5);
+    border-bottom: 1.5px solid var(--fadedpurple);
     border-radius:0;
     background-color:black;
 }
 .formfield::placeholder {
     color:rgba(255, 255, 255, 0.75);
 }.formfield:focus{
-    box-shadow: 0 0 10px 5px rgb(154, 51, 140, 0.5);
-    outline:1.5px solid rgb(154, 51, 140);
+    box-shadow: 0 0 10px 5px var(--fadedpurple);
+    outline:1.5px solid var(--darkpurple);
 }
 .btn.form{
-    box-shadow: 0 0 10px 5px rgb(154, 51, 140, 0.5);
+    box-shadow: 0 0 10px 5px var(--fadedpurple);
     padding:10px;
     border:none;
     background-color:black;
@@ -39,7 +46,7 @@ legend {
     width:fit-content;
     margin:auto;
 } .btn.form:hover{
-    outline:1.5px solid rgb(154, 51, 140);
+    outline:1.5px solid var(--darkpurple);
     transition: outline 0.2s;
 }
 
@@ -59,16 +66,16 @@ legend {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
-    border-block: 1.5px solid rgb(154, 51, 140, 0.35);
+    border-block: 1.5px solid var(--fadedpurple);
     padding: 10px;
 }
 
 .box2 {
-    border-bottom: 1px rgb(154, 51, 140, 0.35) dotted;
+    border-bottom: 1px var(--fadedpurple) dotted;
 }
 
 .textblock {
-    border-top: 1.5px solid rgb(154, 51, 140, 0.35);
+    border-top: 1.5px solid var(--fadedpurple);
     padding: 10px;
     text-align: center;
 }
@@ -80,7 +87,7 @@ legend {
 }
 
 .contact-link:hover, .btn.form:hover {
-    color: rgb(154, 51, 140);
+    color: var(--purple);
     font-weight: 600;
     transition: color 0.2s;
 }
@@ -91,7 +98,7 @@ legend {
     max-width: 500px !important;
 
     legend {
-        border-bottom: 1.5px solid rgb(154, 51, 140, 0.35);
+        border-bottom: 1.5px solid var(--fadedpurple);
 
     }
 
