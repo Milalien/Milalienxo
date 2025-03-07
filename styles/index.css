@@ -76,14 +76,16 @@ h5 {
   color: rgb(193, 193, 193);
   font-size: x-large;
 }
-
 .btn:hover,.plink:hover {
   color: var(--purple);
   transition: color 0.2s;
 }
-
 .card {
   background-color: rgba(0, 0, 0, 0.750) !important;
   box-shadow: 0 0 15px var(--fadeddarkpurple);
-
+}
+.row {
+  flex-wrap: wrap;
+} .row .card{
+  min-width: 250px;
 }
