@@ -4,10 +4,11 @@
             {
                 "name": "Taloushallinto360",
                 "description": [
-                    "I am currently working on a website for our school's financial management students and teachers with a classmate.<br>",
+                    "I built a website for our school's financial management students and teachers with a classmate.<br>",
                     "The website is going to be a platform that brings together the paths of financial management studies",
                     "by using four case companies that have different financial management needs, and excercises for all courses to utilize.<br>",
-                    "This is still an ongoing project, so the repository will be available later on.<br>"
+                    "The website is built with HTML, CSS, JavaScript and uses a JSON file as a quick 'database' for easier updating.<br>",
+                    "The project is finished, but the website is not yet live and I can't yet share the repository on my GitHub.<br>"
                 ],
                 "link": {
                     "text": "",
