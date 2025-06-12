@@ -34,7 +34,8 @@ legend {
     color:rgba(255, 255, 255, 0.75);
 }.formfield:focus{
     box-shadow: 0 0 10px 5px var(--fadedpurple);
-    outline:1.5px solid var(--darkpurple);
+    outline:1.5px solid var(--fadeddarkpurple);
+    
 }
 .btn.form{
     box-shadow: 0 0 10px 5px var(--fadedpurple);
@@ -45,9 +46,10 @@ legend {
     border-radius:15px;
     width:fit-content;
     margin:auto;
-} .btn.form:hover{
-    outline:1.5px solid var(--darkpurple);
-    transition: outline 0.2s;
+    transition: all 0.3s ease-in-out;
+    outline-color: var(--darkpurple);
+} .btn.form:hover{ 
+    outline:1.5px solid var(--fadeddarkpurple);
 }
 
 .wrapper {
@@ -83,13 +85,12 @@ legend {
 .contact-link {
     text-decoration: none;
     color: white;
-
+    transition: all 0.3s ease-in-out;
 }
 
 .contact-link:hover, .btn.form:hover {
     color: var(--purple);
     font-weight: 600;
-    transition: color 0.2s;
 }
 
 
