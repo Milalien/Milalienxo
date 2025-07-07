@@ -4,6 +4,8 @@
   --purple: #9d2ad4;
   --fadedpurple:#9e2ad48c;
   --fadedblue:  rgba(28, 45, 201, 0.603);
+  --lilac: #b88aec;
+  --lightpurple: #d4b8f0;
 }
 
 body {
@@ -69,7 +71,6 @@ h5 {
 #about {
   position: relative;
 }
-
 .card.link:hover {
   background-size: 100% 100%;
 
@@ -79,10 +80,10 @@ h5 {
 }
 .plink{
   text-decoration: none;
-  color:white;
+  color: var(--lilac);
   transition: all 0.3s ease-in-out;
 }
-.plink:hover{
+.plink:hover {
   font-weight: 500;
 }
 .btn {

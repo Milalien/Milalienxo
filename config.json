@@ -106,9 +106,15 @@
         ],
         "internships": [
             {
+                "position": "Project intern - Develop Business Intelligence by agile methods",
+                "name": "LAB University of Applied Sciences / Nelipyörä Oy",
+                "description": "I worked as a project intern in close collaboration with the client company.<br>My tasks included gathering requirements, designing and implementing a prototype for a business intelligence solution.",
+                "time": "05/2024 - 08/2024"
+            },
+            {
                 "position": "Web Developement intern",
                 "name": "IT-Palvelu Varaani",
-                "description": "Designed and developed a web page for a local company and participated in other projects.<br>More about it on the skills page!",
+                "description": "Designed and developed a web page for a local company and participated in other projects.<br>More about it on the <a class='plink' href='skills.html'>skills</a> page!",
                 "time": "05/2024 - 08/2024"
             }
         ],
