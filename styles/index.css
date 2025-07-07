@@ -7,7 +7,6 @@
   --lilac: #b88aec;
   --lightpurple: #d4b8f0;
 }
-
 body {
   font-family: "Source Code Pro", monospace;
   background: rgb(61, 2, 50) url(../images/mkBackground.png) no-repeat fixed center center;
