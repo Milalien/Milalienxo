@@ -94,3 +94,45 @@ h5 {
 .btn:hover,.plink:hover {
   color: var(--purple);
 }
+
+@media only screen and (max-width: 600px) {
+    .content {
+        max-width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 601px) {
+    .content {
+        max-width: 95%;
+        margin: auto;
+    }}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .content {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    .content {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .content {
+        max-width: 50%;
+    }
+}
