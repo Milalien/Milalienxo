@@ -7,12 +7,11 @@
                     "I built a website for our school's financial management students and teachers with a classmate.<br>",
                     "The website is going to be a platform that brings together the paths of financial management studies",
                     "by using four case companies that have different financial management needs, and exercises for all courses to utilize.<br>",
-                    "The website is built with HTML, CSS, JavaScript and uses a JSON file as a quick 'database' for easier updating.<br>",
-                    "The project is finished, but the website is not yet live and I can't yet share the repository on my GitHub.<br>"
+                    "The website is built with HTML, CSS, JavaScript and uses a JSON file as a quick 'database' for easier updating.<br>"
                 ],
                 "link": {
-                    "text": "",
-                    "url": ""
+                    "text": "Repository for the project: ",
+                    "url": "https://github.com/Milalien/Taloushallinto360"
                 }
             },
             {
