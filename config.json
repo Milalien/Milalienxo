@@ -41,7 +41,7 @@
         ],
         "courses": [
             {
-                "name": "Mobile app development",
+                "name": "Mobile Application Development",
                 "description": "Learned to produce a mobile application using Flutter<br>",
                 "link": {
                     "text": "",
@@ -49,7 +49,7 @@
                 }
             },
             {
-                "name": "GitHub Actions and Azure DevOps",
+                "name": "Software Development Automation",
                 "description": "Learned the basics of CI/CD pipelines, GitHub Actions, Docker and Azure DevOps.<br>",
                 "link": {
                     "text": "Cloned and edited repository: ",
@@ -81,7 +81,7 @@
                 }
             },
             {
-                "name": "SQL and relational databases",
+                "name": "Databases and Interfaces",
                 "description": "Basics of SQL queries, creating and using databases.<br>",
                 "link": {
                     "text": "",
@@ -140,6 +140,15 @@
             }
         ],
         "confidential": [
+            {
+                "name": "Students of Business and Technology (TROL ry)",
+                "terms": [
+                    {
+                        "position": "Vice Chairperson",
+                        "time": "2026"
+                    }
+                ]
+            },
             {
                 "name": "LapTOp ry",
                 "terms": [
