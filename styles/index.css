@@ -39,6 +39,12 @@ h5 {
   text-align: center;
   max-width: fit-content;
 }
+.container p {
+  color: white;
+  font-size: 15px;
+  font-weight: 350;
+  font-stretch: extra-condensed;
+}
 
 .flex-container {
   justify-content: center;

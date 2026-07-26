@@ -93,6 +93,11 @@
     "resume": {
         "education": [
             {
+                "name": "Master's Programme in Software Engineering<br>(MSc in Technology)",
+                "school": "LUT University of Technology",
+                "time": "08/2026 - est. 05/2028"
+            },
+            {
                 "name": "Bachelor of Business Information Technology (BBA)",
                 "school": "LAB University of Applied Sciences",
                 "time": "08/2022 - 05/2026"
@@ -124,7 +129,7 @@
                 "time": "06/2026 - Ongoing"
             },
             {
-                "position": "Taxi dispatch call center agent",
+                "position": "Taxi Dispatch Call Center Agent",
                 "name": "Taksi Saimaa Oy",
                 "time": "01/2023 - Ongoing"
             },
@@ -134,7 +139,7 @@
                 "time": "11/2021 - 06/2022"
             },
             {
-                "position": "Grocery store employee",
+                "position": "Grocery Store employee",
                 "name": "Etelä-Karjalan Osuuskauppa, Prisma Lappeenranta",
                 "time": "08/2021 - 10/2021"
             },
@@ -146,7 +151,7 @@
         ],
         "confidential": [
             {
-                "name": "Students of Business and Technology (TROL ry)",
+                "name": "Students of Business and Technology Union (TROL ry)",
                 "terms": [
                     {
                         "position": "Vice Chairperson",
